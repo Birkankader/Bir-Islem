@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta name="viewport" charset="UTF-8" content="width=device-width, initial-scale=1, minimum-scale=1, maximum-scale=3">
+		<title>Bir İşlem</title>
+		<style>
+			.target {
+			text-align: center;
+			margin: auto;
+			font-weight: bold;
+			font-size: 3ev;
+			}
+			.table {
+				display: table;
+			}
+		</style>
+	</head>
+	<body>
+		<div class="gameArea">
+			<div>
+				<span>&nbsp;</span>
+			</div>
+			
+			<div>
+				<span>&nbsp;</span>
+			</div>
+			<div class="question">
+				Hedef :&nbsp;<span id="target">&nbsp;</span>
+			</div>
+			<div id="numbersBlock" class="centered">	
+						<div class="operand" id="number1">0</div>
+						<div class="operand" id="number2">0</div>
+						<div class="operand" id="number3">0</div>
+						<div class="operand" id="number4">0</div>
+						<div class="operand" id="number5">0</div>				
+						<div class="operand" id="number6">0</div>	
+			</div>
+			<div class="buttons">
+				<div id="acceptButton" class="check-button circular bordered">&nbsp;</div>
+				<button id="showSolution" class="solution-button circular bordered">Sonuç Göster</button>
+				<div id="undo" class="back-button circular bordered">&nbsp;</div>
+				<div id="new" class="refresh-button circular bordered">&nbsp;</div>
+			</div>
+			<div id="solutionArea" class="solution">
+
+			</div>
+		</div>
+		<script src="js/bir_islem.js"></script>
+	</body>
+</html>
